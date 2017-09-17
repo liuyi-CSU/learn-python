@@ -13,3 +13,6 @@
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+zifuchuan='zhe shi yi ge zi fu chuan'
+shuzu=zifuchuan.split(' ')
+print(len(shuzu[len(shuzu)-1]))
