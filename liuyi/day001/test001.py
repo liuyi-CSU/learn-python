@@ -13,6 +13,13 @@
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-zifuchuan='zhe shi yi ge zi fu chuan'
-shuzu=zifuchuan.split(' ')
-print(len(shuzu[len(shuzu)-1]))
+
+str = "hello world, nice too meet you"
+
+
+
+st = str.split(' ')
+
+s = st[len(st)-1]
+
+print(len(s))
