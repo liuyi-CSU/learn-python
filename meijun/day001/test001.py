@@ -24,3 +24,4 @@ s = st[len(st)-1]
 
 print(len(s))
 print(len(s))
+print(len(s))
