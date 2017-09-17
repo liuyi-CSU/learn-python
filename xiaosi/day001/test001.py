@@ -13,3 +13,13 @@
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+str = "hello world, nice too meet you"
+
+
+
+st = str.split(' ')
+
+s = st[len(st)-1]
+
+print(len(s))
