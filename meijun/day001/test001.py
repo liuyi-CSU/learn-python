@@ -14,14 +14,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-str = "hello world, nice too meet you"
+str = "hello world nice too meet you yhhyhyhy"
 
 
 
 st = str.split(' ')
-
+print(st)
+print(len(st))
 s = st[len(st)-1]
 
-print(len(s))
-print(len(s))
+print(s)
+
 print(len(s))
