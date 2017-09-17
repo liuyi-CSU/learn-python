@@ -14,15 +14,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-str = "hello world nice too meet you yhhyhyhy"
-
-
-
+str = "li mei jun xue python"
 st = str.split(' ')
-print(st)
-print(len(st))
 s = st[len(st)-1]
+l = len(s)
+print(l)
 
-print(s)
-
-print(len(s))

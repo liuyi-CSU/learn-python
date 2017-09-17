@@ -13,14 +13,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-str = "dAsf fadf 9a8 8fd "
-
-p = "a"
-
-n = 0
-
-for s in str:
-    if s.lower() == p.lower():
-        n += 1
-
-print(n)
+s = "li mei jun"
+l = "m"
+print(s.count(l))
