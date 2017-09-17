@@ -17,3 +17,20 @@ Return Value
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import random
+
+def random_int_list(start, stop, length):
+    start, stop = (int(start), int(stop)) if start <= stop else (int(stop), int(start))
+    random_list = []
+    for i in range(length):
+        random_list.append(random.randint(start, stop))
+    return random_list
+
+print("请输入随机数的个数 n:")
+n = input()
+
+r = random_int_list(1, 10001, int(n))
+print(r)
+
+print(sorted(r))
+

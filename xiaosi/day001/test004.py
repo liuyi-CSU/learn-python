@@ -12,4 +12,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+print("请输入一个十六进制的数值字符串:")
+inp = input()
 
+print(int(inp, 16))

@@ -13,14 +13,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-str = "dasf fadf 9a8 8fd "
+str = "dAsf fadf 9a8 8fd "
 
 p = "a"
 
 n = 0
 
 for s in str:
-    if s == p:
+    if s.lower() == p.lower():
         n += 1
 
 print(n)
