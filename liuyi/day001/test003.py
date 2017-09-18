@@ -22,5 +22,5 @@ for i in range(random.randrange(10)):
     randNum=random.randrange(1, 20)
     if randNum not in shuZu:
         shuZu.append(randNum)
-print(shuZu)
-
+print('排序前:%s' % shuZu)
+print("排序后:%s" % sorted(shuZu))

@@ -11,5 +11,5 @@
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-
+temp = input('输入一个十六进制的数值字符串：')
+print('十进制：%d' % int(temp, 16))
