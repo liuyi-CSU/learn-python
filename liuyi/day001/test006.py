@@ -12,5 +12,12 @@
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+fNum = float(input('输入一个正浮点数值:'))
+yuShu = fNum % 1
+ZhShu = fNum / 1
+if yuShu >= 0.5:
+    fNum = ZhShu + 1
+else:
+    fNum = ZhShu
+print('近似整数值:%d' % fNum)
 
